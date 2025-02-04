@@ -88,7 +88,6 @@ public class BMIKalk {
             default: return "Nicht klassifiziert";
         }
     }
-
     // Methode fürs Runden auf 2 Kommawerte
     private double round(double value) {
         return Math.round(value * 100.0) / 100.0;
