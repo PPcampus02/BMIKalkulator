@@ -17,5 +17,15 @@ public class BMIKalkulator {
     void tearDown() {
         System.out.println("Cleaning up after test");
     }
+    @Test
+    public void testConstructor () {
+        assertEquals("Philip", calculator.getFirstname());
+        assertEquals("Pollheimer", calculator.getLastname());
+        assertEquals(176, calculator.getBodyHeight());
+        assertEquals(72.0, calculator.getBodyWeight());
+        assertEquals('m', calculator.getGender());
+    }
+
+
 
 }
