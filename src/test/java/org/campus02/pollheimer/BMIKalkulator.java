@@ -25,6 +25,10 @@ public class BMIKalkulator {
         assertEquals(72.0, calculator.getBodyWeight());
         assertEquals('m', calculator.getGender());
     }
+    @Test
+    void testCalculateBMI () {
+        assertEquals(23.24, calculator.calculateBMI(), 0.01);
+    }
 
 
 
