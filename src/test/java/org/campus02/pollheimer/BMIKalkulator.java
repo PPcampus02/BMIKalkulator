@@ -29,6 +29,11 @@ public class BMIKalkulator {
     void testCalculateBMI () {
         assertEquals(23.24, calculator.calculateBMI(), 0.01);
     }
+    @Test
+    void testCalculateBMICategory () {
+        assertEquals(0, calculator.calculateBMICategory());
+    }
+
 
 
 
