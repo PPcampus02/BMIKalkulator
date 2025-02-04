@@ -77,7 +77,6 @@ public class BMIKalk {
         }
         return -1;
     }
-
     // Methode für Kategorien
     public String getBMICategoryName() {
         switch (calculateBMICategory()) {
