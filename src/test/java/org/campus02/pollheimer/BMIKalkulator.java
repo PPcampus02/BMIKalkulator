@@ -37,6 +37,10 @@ public class BMIKalkulator {
     void testGetBMICategoryName () {
         assertEquals("Normalgewicht", calculator.getBMICategoryName());
     }
+    @Test
+    void testRoundMethod() {
+        assertEquals(23.24, calculator.calculateBMI());
+    }
 
 
 
