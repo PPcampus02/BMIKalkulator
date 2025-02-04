@@ -64,6 +64,8 @@ public class BMIKalk {
                 return 0;
             if (bmi < 35.0)
                 return 1;
+            if (bmi >= 35.0)
+                return 2;
 
         } else if (gender == 'w') {
             if (bmi < 15.0)
@@ -74,6 +76,8 @@ public class BMIKalk {
                 return 0;
             if (bmi < 34.0)
                 return 1;
+            if (bmi >= 34.0)
+                return 2;
         }
         return -1;
     }
